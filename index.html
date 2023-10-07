@@ -8,7 +8,7 @@
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix schema: <http://schema.org/>.
 
-// @prefix sosa: <http://www.w3.org/ns/sosa/> .
+## @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix sosac: <https://anarubioruiz.github.io/sosac-ontology/> .
 
 
@@ -30,7 +30,7 @@ sosac: a owl:Ontology , voaf:Vocabulary ;
   dcterms:title "Sensors, Observations, Samples, and Actuators Capabilities (SOSAc) Ontology"@en ;
   dcterms:description "This ontology, based on the SOSA Ontology by the W3C/OGC Spatial Data on the Web Working Group, pretends to provide a definition of the concepts of Sensor, Observation, (not yet) Sample, and Actuator and their relations from the prespective of their capabilities."@en ;
   dcterms:creator [ a foaf:Person ; foaf:name "Ana Rubio" ] ;
-  dcterms:license <https://creativecommons.org/licenses/by/4.0/>
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
   vann:preferredNamespacePrefix "sosac" ;
   vann:preferredNamespaceUri "https://anarubioruiz.github.io/sosac-ontology/" .
 
@@ -41,7 +41,7 @@ sosac:FeatureOfInterest a rdfs:Class ; a owl:Class ; # similar to SOSA, but with
   rdfs:label "Feature Of Interest"@en ;
   skos:definition "The thing whose property can be manipulated or monitored by an Actuator or a Sensor, respectively."@en ;
   rdfs:comment "The thing whose property can be manipulated or monitored by an Actuator or a Sensor, respectively."@en ;
-  skos:example "Checking if a door is open is a type of Observation, always performed by the same Sensor, where the state "open" is the ObservableProperty observed, "true" is the Result of that Observation, and the particular door is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."@en ;
+  skos:example "Checking if a door is open is a type of Observation, always performed by the same Sensor, where the state 'open' is the ObservableProperty observed, 'true' is the Result of that Observation, and the particular door is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."@en ;
   rdfs:isDefinedBy sosac: .
 
   sosac:ObservableProperty a rdfs:Class , owl:Class ; # replicated from SOSA
