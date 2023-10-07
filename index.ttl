@@ -1,4 +1,3 @@
-<pre style="word-wrap: break-word; white-space: pre-wrap;">
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
@@ -267,6 +266,3 @@ sosac:Result a rdfs:Class , owl:Class ;
 
 
 ## Samples will be added in the future ...
-
-</pre>
-
