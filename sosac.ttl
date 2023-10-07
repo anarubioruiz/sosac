@@ -8,7 +8,7 @@
 @prefix schema: <http://schema.org/>.
 
 ## @prefix sosa: <http://www.w3.org/ns/sosa/> .
-@prefix sosac: <https://anarubioruiz.github.io/sosac-ontology/> .
+@prefix sosac: <https://anarubioruiz.github.io/sosac-ontology/sosac.ttl> .
 
 
 foaf:Person a owl:Class .
@@ -31,7 +31,7 @@ sosac: a owl:Ontology , voaf:Vocabulary ;
   dcterms:creator [ a foaf:Person ; foaf:name "Ana Rubio" ] ;
   dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
   vann:preferredNamespacePrefix "sosac" ;
-  vann:preferredNamespaceUri "https://anarubioruiz.github.io/sosac-ontology/" .
+  vann:preferredNamespaceUri "https://anarubioruiz.github.io/sosac-ontology/sosac.ttl" .
 
 
 ## Features of interest and Property
